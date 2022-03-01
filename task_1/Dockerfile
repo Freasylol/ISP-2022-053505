@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8-alpine
 
 RUN mkdir -p /usr/src/app/
 
@@ -6,4 +6,4 @@ WORKDIR /usr/src/app/
 
 COPY . /usr/src/app/
 
-CMD ["python", "entryPoint.py"]
+CMD ["python", "entry_point.py"]
