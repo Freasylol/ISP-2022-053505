@@ -5,7 +5,7 @@ punctuation_symb = [',', '.', '?', '!', '-']
 end_sentence_symb = ['.', '?', '!']
 
 
-class logic_unit:
+class LogicUnit:
 
     @staticmethod
     def get_words(text):
